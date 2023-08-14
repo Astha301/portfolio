@@ -1,0 +1,53 @@
+html{
+    scroll-behavior: smooth;
+}
+html::-webkit-scrollbar{
+    display: none;
+
+}
+#home{
+    background: url(images/img-pic_.jpeg);
+    background-position:right 20% bottom 20%;
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-origin: padding-box;
+}
+.main-nav{
+    background-color: transparent;
+}
+
+section{
+    height: 100vh;
+}
+
+.custom-col{
+    margin-top:10%;
+}
+i{
+    color: black;
+}
+
+.img-hero{
+    height: auto;
+}
+.custom-card {
+    margin-bottom: 20px;
+}
+.card-icon{
+    font-size: 3rem;
+}
+.custom-bg{
+    background-color:honeydew;
+}
+.block{
+    height: 0.5rem;
+    width: 6rem;
+    background-color: black;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 2rem;
+    opacity: 0.5;
+}
+.img-fluid{
+    filter: greyscale(1);
+}
